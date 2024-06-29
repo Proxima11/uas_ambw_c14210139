@@ -1,0 +1,27 @@
+name: uas_ambw_c14210139
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib\images\background_pin.jpg
+    - lib\images\background_pin1.jpg
+    - lib\images\background_pin3.jpg
+    - lib\images\background_note.jpg
